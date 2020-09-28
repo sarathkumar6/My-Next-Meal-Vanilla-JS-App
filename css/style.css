@@ -6,7 +6,7 @@
       list-style-type: none;
   }
   body {
-    background: #2d2013;
+    background: #05533c;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -20,6 +20,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  .meal-container  h4 {
+    margin-top: 0;
   }
   
   .flex {
@@ -68,6 +72,8 @@
     height: 180px;
     width: 180px;
     text-align: center;
+    background-color: ghostwhite;
+    border-radius: 5px;
   }
   
   .meal img {
@@ -102,6 +108,7 @@
   
   .single-meal img {
     width: 300px;
+    height: 300px;
     margin: 15px;
     border: 4px #fff solid;
     border-radius: 2px;
@@ -118,15 +125,17 @@
     margin: 0;
     letter-spacing: 0.5px;
     line-height: 1.5;
+    text-align: left;
   }
   
   .single-meal ul {
     padding-left: 0;
     list-style-type: none;
+    text-align: left;
   }
   
   .single-meal ul li {
-    border: 1px solid #ededed;
+    border: 1px solid #ee6161;
     border-radius: 5px;
     background-color: #fff;
     display: inline-block;
@@ -136,6 +145,11 @@
     padding: 5px;
     margin: 0 5px 5px 0;
     list-style-type: none;
+    text-align: left
+  }
+
+  .single-meal .main {
+    text-align: left;
   }
   
   @media (max-width: 800px) {

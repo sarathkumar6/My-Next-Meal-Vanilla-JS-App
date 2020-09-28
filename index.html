@@ -7,17 +7,18 @@
     
     <script src="https://kit.fontawesome.com/5c7e066997.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
-    <title>My Meal Finder</title>
+    <title>My Next Meal</title>
 </head>
 <body>
     <div class="meal-container">
-        <h1>Find My Meal</h1>
+        <h1>My Next Meal</h1>
+        <h4>Hungry? Say no more. Find your favorite meal.</h4>
       <div class="flex">
         <form class="flex" id="submit">
           <input
             type="text"
             id="search"
-            placeholder="Search for meals or keywords"
+            placeholder="Search for meals E.g. Chicken, Steak"
           />
           <button class="search-btn" type="submit">
             <i class="fas fa-search"></i>
@@ -31,6 +32,7 @@
       <div id="result-heading"></div>
       <div id="meals" class="meals"></div>
       <div id="single-meal"></div>
+      <div id="meal-category" class="meals"></div>
     <script src="index.js"></script>
 </body>
 </html>
